@@ -4,6 +4,11 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: heading
+  label: dfg
+- type: document
+  path: sidebars.json
+  label: Sidebar
 - type: directory
   path: docs
   label: Docs
@@ -16,9 +21,6 @@ sections:
   label: Blog
   create: documents
   match: "*.md"
-- type: document
-  path: sidebars.json
-  label: Sidebar
 upload_dir: static/img
 public_path: "/img"
 front_matter_path: ''
